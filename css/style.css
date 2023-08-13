@@ -252,6 +252,9 @@
     color: var(--light);
 }
 
+.owl-nav, .owl-dots{
+    display: none !important;
+}
 
 /*** Section Title ***/
 .section-title h1 {
@@ -264,22 +267,8 @@
     padding-left: 0;
 }
 
-.section-title h1::before,
-.section-title h1::after {
-    position: absolute;
-    content: "";
-    width: 45px;
-    height: 5px;
-    bottom: 0;
-    background: var(--dark);
-}
-
 .section-title h1::before {
     left: 0;
-}
-
-.section-title h1::after {
-    right: 0;
 }
 
 .section-title.text-start h1::before {
@@ -426,6 +415,10 @@
     transition: .5s;
 }
 
+.img-team{
+    height: 400px;
+}
+
 .team-item:hover img {
     transform: scale(1.1);
 }
@@ -561,67 +554,15 @@
 
 
 /*** Footer ***/
-.footer {
-    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/footer.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.footer .btn.btn-social {
-    margin-right: 5px;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--light);
-    border: 1px solid #FFFFFF;
-    transition: .3s;
-}
-
-.footer .btn.btn-social:hover {
-    color: var(--primary);
-}
-
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
+footer {
+    background: var(--dark);
     color: #FFFFFF;
-    font-size: 15px;
-    font-weight: normal;
-    text-transform: capitalize;
-    transition: .3s;
+    padding-bottom: 30px;
 }
 
-.footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
-}
-
-.footer .btn.btn-link:hover {
-    color: var(--primary);
-    letter-spacing: 1px;
-    box-shadow: none;
-}
-
-.footer .copyright {
-    padding: 25px 0;
-    font-size: 15px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
-}
-
-.footer .copyright a {
-    color: var(--light);
-}
-
-.footer .copyright a:hover {
-    color: var(--primary);
-}
-
-.owl-nav, .owl-dots {
-    display: none !important;
+footer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 30px 0;
 }

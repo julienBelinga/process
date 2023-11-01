@@ -83,11 +83,22 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                <a href="team.html" class="nav-item nav-link">Team building</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
+            <ul class="navbar-nav ms-auto p-4 p-lg-0">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item dropdown"> <!-- Ajout de la classe "dropdown" -->
+                    <a href="#" class="nav-link dropdown-toggle" id="teamDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team building</a>
+                    <div class="dropdown-menu" aria-labelledby="teamDropdown">
+                        <a class="dropdown-item" href="team-about.html">à propos du Team Building</a>
+                        <a class="dropdown-item" href="team-activities.html">les activités proposer</a>
+                        <a class="dropdown-item" href="team-benefit.html">Les bénéfices du team building</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
             <a href="https://www.helloasso.com/associations/united-fight-team/adhesions/process-inscription" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Inscrivez-vous<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>

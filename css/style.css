@@ -601,3 +601,46 @@ footer h2 {
     background-color: #296DFD;
     border-color: #296DFD;
 }
+/* styles.css */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Couleur de fond du menu déroulant */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown .dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333; /* Couleur du texte du menu déroulant */
+  }
+  
+  .dropdown .dropdown-menu a:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol */
+  }
+  
+  /* Style du lien principal "Team Building" */
+  .dropdown .nav-link {
+    cursor: pointer;
+  }
+  
+  /* Style pour la flèche vers le bas */
+  .dropdown .dropdown-toggle::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free"; /* Le nom de la police FontAwesome peut varier */
+    font-weight: 900; /* Utilisez le poids de la police approprié */
+    margin-left: 5px;
+}
+
+  

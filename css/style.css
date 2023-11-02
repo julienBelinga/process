@@ -643,4 +643,9 @@ footer h2 {
     margin-left: 5px;
 }
 
-  
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

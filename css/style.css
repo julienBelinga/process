@@ -649,3 +649,11 @@ footer h2 {
     justify-content: center;
     height: 100%;
 }
+
+.team-building-section h2, .team-building-section h3, .team-building-section h4, .about-us-section h2{
+    text-align: center;
+}
+
+.about-us-section p{
+    text-align: justify;
+}

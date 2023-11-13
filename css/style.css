@@ -280,10 +280,7 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     display: inline-block;
     padding: 0 60px;
-}
-
-.section-title.text-start h1 {
-    padding-left: 0;
+    width: 100%;
 }
 
 .section-title h1::before {
@@ -650,7 +647,7 @@ footer h2 {
     height: 100%;
 }
 
-.team-building-section h2, .team-building-section h3, .team-building-section h4, .about-us-section h2{
+.team-building-section h2, .team-building-section h3, .team-building-section h4, .about-us-section h2, h1{
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;

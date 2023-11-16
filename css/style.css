@@ -130,6 +130,19 @@ h1,h2,h3,h4,h5,h6{
     .navbar-light .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
+  
+    #ctn-about, #ctn-jjb, #ctn-quote{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #img-jjb, #img-quote{
+        height: 0 !important;
+    }
+
+    #img-about{
+        display: none;
+    }
 }
 
 .navbar-light .navbar-brand,

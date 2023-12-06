@@ -665,10 +665,15 @@ footer h2 {
     height: 100%;
 }
 
-.team-building-section h2, .team-building-section h3, .team-building-section h4, .about-us-section h2, h1{
+.team-building-section h2, .team-building-section h3, .team-building-section h4, .about-us-section h2, h1, .cohesion-benefits-section h2{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.cohesion-benefits-section li{
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .about-us-section p{

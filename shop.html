@@ -30,7 +30,10 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <body>
     <!-- Spinner Start -->
@@ -42,32 +45,32 @@
     <!-- Spinner End -->
 
 
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-light p-0">
-            <div class="row gx-0 d-none d-lg-flex">
-                <div class="col-lg-7 px-5 text-start">
-                    <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                        <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                        <small>54 Rue de la Distillerie, 44000 Nantes</small>
-                    </div>
-                    <div class="h-100 d-inline-flex align-items-center py-3">
-                        <small class="far fa-clock text-primary me-2"></small>
-                        <small>Lundi - samedi : 18h30 - 21h30</small>
-                    </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>54 Rue de la Distillerie, 44000 Nantes</small>
                 </div>
-                <div class="col-lg-5 px-5 text-end">
-                    <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                        <small class="fa fa-phone-alt text-primary me-2"></small>
-                        <small>06 09 99 85 22</small>
-                    </div>
-                    <div class="h-100 d-inline-flex align-items-center">
-                        <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/people/WAR-MAT-JIU-JITSU/100063479082780/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/processjj/" class="btn btn-sm-square bg-white text-primary me-0" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Lundi - samedi : 18h30 - 21h30</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>06 09 99 85 22</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/people/WAR-MAT-JIU-JITSU/100063479082780/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/processjj/" class="btn btn-sm-square bg-white text-primary me-0" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
-        <!-- Topbar End -->
+    </div>
+    <!-- Topbar End -->
 
 
     <!-- Navbar Start -->
@@ -101,7 +104,6 @@
             <a href="https://www.helloasso.com/associations/united-fight-team/adhesions/process-inscription" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Inscrivez-vous<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
-    
     <!-- Navbar End -->
 
 
@@ -122,43 +124,92 @@
     <main class="shop">
         <article>
             <h2>T-shirt Process</h2>
-            <p>Vêtement bio et de qualité unique en Europe.
-                100% COTON BIOLOGIQUE FILÉ ET PEIGNÉ, TISSU LAVÉ, 180 G/M²
-                SERIGRAPHIÉ À NANTES.</p>
             <img src="img/shop1.png" alt="T-shirt Process">
+            <button class="order-button">Commander</button>
         </article>
 
         <article>
             <h2>Sweat Process</h2>
-            <p>Vêtement bio et de qualité unique en Europe.
-                MOLLETON BROSSÉ, 85% COTON BIOLOGIQUE FILÉ ET PEIGNÉ, 15% POLYESTER RECYCLÉ, TISSU LAVÉ, 280 G/M²
-                COUPE NORMALE.
-                SERIGRAPHIÉ À NANTES.</p>
             <img src="img/shop2.png" alt="Sweat Process">
+            <button class="order-button">Commander</button>
         </article>
 
         <article>
             <h2>Short de Grappling</h2>
-            <p>Description du produit...</p>
-            <img src="img/shop1.png" alt="Short de Grappling Process">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/short1.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short2.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short3.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short4.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short5.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short6.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short7.jpeg" alt="Short de Grappling Process"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a class="order-button" target="_blank" href="https://www.helloasso.com/associations/process-jiujitsu/boutiques/fightwear-process">Commander</a>
         </article>
 
         <article>
             <h2>Rashguard grappling</h2>
-            <p>Description du produit...</p>
-            <img src="img/shop2.png" alt="Rashguard grappling Process">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/rash1.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/rash2.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/rash3.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/rash4.jpeg" alt="Short de Grappling Process"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a class="order-button" target="_blank" href="https://www.helloasso.com/associations/process-jiujitsu/boutiques/fightwear-process">Commander</a>
         </article>
 
         <article>
             <h2>Kimono Process</h2>
-            <p>Description du produit...</p>
-            <img src="img/shop1.png" alt="Kimono Process">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/kim1.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim2.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim3.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim4.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim5.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim6.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim7.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim8.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim9.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim10.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim11.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim12.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim13.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim14.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim15.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/kim16.jpeg" alt="Short de Grappling Process"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a class="order-button" target="_blank" href="https://www.helloasso.com/associations/process-jiujitsu/boutiques/fightwear-process">Commander</a>
         </article>
 
         <article>
             <h2>Bundle Grappling</h2>
-            <p>Description du produit...</p>
-            <img src="img/shop2.png" alt="Casquette MMA">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/rash1.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/rash2.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/rash3.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/rash4.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short1.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short2.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short3.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short4.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short5.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short6.jpeg" alt="Short de Grappling Process"></div>
+                    <div class="swiper-slide"><img src="img/short7.jpeg" alt="Short de Grappling Process"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a class="order-button" target="_blank" href="https://www.helloasso.com/associations/process-jiujitsu/boutiques/fightwear-process">Commander</a>
         </article>
     </main>
 
@@ -221,6 +272,17 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 
 </html>

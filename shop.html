@@ -283,6 +283,28 @@
             },
         });
     </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Initialisez le Swiper pour chaque conteneur
+      var swipers = document.querySelectorAll('.swiper-container');
+  
+      swipers.forEach(function (swiper) {
+        var mySwiper = new Swiper(swiper, {
+          // Options de configuration
+          loop: true, // Défilement en boucle
+          autoplay: {
+            delay: 2000, // Délai entre chaque diapositive en millisecondes
+            disableOnInteraction: false, // Activer l'autoplay même si l'utilisateur interagit avec le carrousel
+          },
+          pagination: {
+            el: '.swiper-pagination', // Sélecteur du conteneur de pagination
+            clickable: true, // Permet à l'utilisateur de cliquer sur les balles de pagination pour aller à la diapositive correspondante
+          },
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>

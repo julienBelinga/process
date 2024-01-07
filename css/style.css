@@ -679,3 +679,68 @@ footer h2 {
 .about-us-section p{
     text-align: justify;
 }
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.shop article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    display: grid;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.shop article p{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.order-button {
+    padding: 8px 16px;
+    background-color: #296DFD;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.order-button:hover {
+    background-color: #ffffff;
+    border: solid 2px #296DFD;
+}
+
+.shop article .swiper-container {
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.shop article .swiper-slide img {
+    width: auto;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.shop article .swiper-pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;  /* Pour centrer la pagination horizontalement */
+    display: none;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    border-color: #296DFD !important;
+    box-shadow: 0 0 0 0.25rem #296DFD !important;
+}
+
+.btn-primary:hover{
+    border-color: #296DFD !important;
+}

@@ -692,6 +692,9 @@ footer h2 {
     padding: 15px;
     text-align: center;
     position: relative;
+    display: grid;
+    align-content: space-between;
+    justify-content: center;
 }
 
 .shop article p{
@@ -700,10 +703,8 @@ footer h2 {
 }
 
 .order-button {
-    position: absolute;
     bottom: 10px; /* Ajustez la distance du bas selon vos préférences */
     left: 50%;
-    transform: translateX(-50%);
     padding: 8px 16px;
     background-color: #4CAF50;
     color: white;
@@ -719,8 +720,8 @@ footer h2 {
 }
 
 .shop article .swiper-slide img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 300px;
     margin-bottom: 10px;
 }
 

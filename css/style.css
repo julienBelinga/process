@@ -703,14 +703,18 @@ footer h2 {
 }
 
 .order-button {
-    bottom: 10px; /* Ajustez la distance du bas selon vos préférences */
-    left: 50%;
     padding: 8px 16px;
-    background-color: #4CAF50;
+    background-color: #296DFD;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 100%;
+}
+
+.order-button:hover {
+    background-color: #ffffff;
+    border: solid 2px #296DFD;
 }
 
 .shop article .swiper-container {
@@ -730,4 +734,13 @@ footer h2 {
     display: flex;
     justify-content: center;  /* Pour centrer la pagination horizontalement */
     display: none;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+    border-color: #296DFD !important;
+    box-shadow: 0 0 0 0.25rem #296DFD !important;
+}
+
+.btn-primary:hover{
+    border-color: #296DFD !important;
 }
